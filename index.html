@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="script.js"></script>
+  <title>jquery-slider</title>
+</head>
+<body>
+  <main class="color-picker">
+    <fieldset id="radioButtons" class="color-picker__radio-buttons">
+      <legend>Select:</legend>
+      <input type="radio" id="colorButton" name="radioButtons" checked/>
+      <label for="colorButton">color</label>
+      <input type="radio" id="backgroundColorButton" name="radioButtons" />
+      <label for="backgroundColorButton">backgroundColor</label>
+    </fieldset>
+    <div class="color-picker__wrapper">
+      <div class="color-picker__container"> 
+        <div id="red" class="color-picker--red"></div>
+        <div id="green" class="color-picker--green"></div>
+        <div id="blue" class="color-picker--blue"></div>
+      </div>
+      <p id="text" class="color-picker__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste porro corporis optio culpa veritatis obcaecati, modi amet facere sint nam in sapiente molestias ea, cum commodi quasi. Atque, perferendis cupiditate!
+      </p>
+    </div>
+  </main>
+</body>
+</html>
